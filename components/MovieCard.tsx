@@ -31,6 +31,11 @@ const MovieCard: React.FC<MovieCardProps> = ({ data }) => {
               <BiChevronDown className="text-white group-hover/item:text-neutral-300 w-4 lg:w-6" />
             </div>
           </div>
+          <div className="flex flex-row mt-2 gap-2 items-center">
+            <p className="text-white text-[10px] lg:text-sm">
+              {data.title}
+            </p>
+          </div>
           <p className="text-green-400 font-semibold mt-2">
             New <span className="text-white">2023</span>
           </p>
